@@ -80,7 +80,7 @@
     </nav>
 
     <h1 align=center>Tambah Data Mahasiswa</h1>
-    <center><h5> SELAMAT DATANG DI WEB POLITEKNIK NEGERI MALANG </h5></center>
+  
     <table align=center>
     <form action="" method="post" enctype="multipart/form-data">
         <tr>

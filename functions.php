@@ -1,7 +1,7 @@
 <?php
 
 //membuat koneksi
-$conn = mysqli_connect("localhost", "root", "", "phpdatbase");
+$conn = mysqli_connect("localhost", "root", "", "phpdatabase");
 
 //ambil data dari tabel mahasiswa/query data mahasiswa
 $result = mysqli_query($conn,"SELECT * FROM mahasiswa");
@@ -19,7 +19,7 @@ function query ($query_kedua) {
     return $rows;
 }
 
-    function tambah_data($data)
+    function tambah($data)
     {
         global $conn;
 
